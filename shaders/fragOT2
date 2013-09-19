@@ -1,0 +1,43 @@
+#version 150
+in vec2 Texcoord;
+out vec4 outColor;
+uniform sampler2D image;
+in vec3 hlp;
+uniform float speed;
+const float lowerer = 0.00001;
+in vec3 Position_worldspace;
+in vec3 EyeDirection_cameraspace;
+in vec3 LightDirection_cameraspace;
+in vec3 Normal_cameraspace;
+void main()
+{
+
+
+	float pi=3.14;
+	float mTime = speed*2.0;
+	float mTime2 = speed*2.0;
+	float mTime3 = speed*2.0;
+	vec2 uv = Texcoord/1.0;
+	float uvM= sin(uv.x*pi*10.0)*cos(uv.y*pi*10.0);
+	uvM = sin(uvM*pi*2.0);
+	
+	//float aWaves = (sin(speed/200.0)/2.0+1.0)*2.0+0.01;
+	float aWaves =1.5*uv.y;
+	float blue = sin(uvM*pi*aWaves+mTime)/2.0+1.0;
+	float red = cos(uvM*pi*aWaves+mTime)/2.0+1.0;
+	float green = tan(uvM*pi*aWaves+mTime)/2.0+1.0;
+	blue = blue/2.0;
+	red = red/2.0;
+	green = green/2.0;
+	blue += tan(uvM*pi*aWaves+mTime2)/2.0+1.0;
+	red += sin(uvM*pi*aWaves+mTime2)/2.0+1.0;
+	green += cos(uvM*pi*aWaves+mTime2)/2.0+1.0;
+	blue = blue/2.0;
+	red = red/2.0;
+	green = green/2.0;
+	blue += cos(uvM*pi*aWaves+mTime3)/2.0+1.0;
+	red += tan(uvM*pi*aWaves+mTime3)/2.0+1.0;
+	green += sin(uvM*pi*aWaves+mTime3)/2.0+1.0;
+	outColor = vec4(1.0-red, 1.0-(green),1.0-(blue), 1.0);
+   
+}

@@ -1,0 +1,3606 @@
+# depslib dependency file v1.0
+1376617551 source:/home/afreak/cpp/openGeeK/main.cpp
+	<iostream>
+	"Window.h"
+	"shaderCompile.h"
+	"imageLoader.h"
+	"Geometry.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1375878751 source:/home/afreak/cpp/openGeeK/Window.cpp
+	"Window.h"
+
+1375878202 /home/afreak/cpp/openGeeK/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+
+1375709441 source:/home/afreak/cpp/openGeeK/shaderCompile.cpp
+	"shaderCompile.h"
+
+1375652148 /home/afreak/cpp/openGeeK/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1376617008 source:/home/afreak/cpp/openGeeK/Geometry.cpp
+	"Geometry.h"
+
+1376608830 /home/afreak/cpp/openGeeK/Geometry.h
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1369705960 /home/afreak/cpp/openGeeK/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/openGeeK/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/openGeeK/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/openGeeK/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/openGeeK/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/openGeeK/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/openGeeK/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/openGeeK/glm/gtc/type_ptr.inl
+
+1375905471 source:/home/afreak/cpp/openGeeK/imageLoader.cpp
+	"imageLoader.h"
+
+1372352593 /home/afreak/cpp/openGeeK/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1376617008 source:/home/afreak/cpp/openGeeKb4ASSIMPdone/Geometry.cpp
+	"Geometry.h"
+
+1376608830 /home/afreak/cpp/openGeeKb4ASSIMPdone/Geometry.h
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1376691841 source:/home/afreak/cpp/openGeeKb4ASSIMPdone/imageLoader.cpp
+	"imageLoader.h"
+
+1376690515 /home/afreak/cpp/openGeeKb4ASSIMPdone/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<iostream>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1376691784 source:/home/afreak/cpp/openGeeKb4ASSIMPdone/main.cpp
+	<iostream>
+	"ImportModel.h"
+	"Window.h"
+	"shaderCompile.h"
+	"imageLoader.h"
+	"Geometry.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1375878202 /home/afreak/cpp/openGeeKb4ASSIMPdone/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+
+1375652148 /home/afreak/cpp/openGeeKb4ASSIMPdone/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/openGeeKb4ASSIMPdone/glm/gtc/type_ptr.inl
+
+1375709441 source:/home/afreak/cpp/openGeeKb4ASSIMPdone/shaderCompile.cpp
+	"shaderCompile.h"
+
+1375878751 source:/home/afreak/cpp/openGeeKb4ASSIMPdone/Window.cpp
+	"Window.h"
+
+1376690154 source:/home/afreak/cpp/openGeeKb4ASSIMPdone/ImportModel.cpp
+	"ImportModel.h"
+
+1376681238 /home/afreak/cpp/openGeeKb4ASSIMPdone/ImportModel.h
+	<iostream>
+	<vector>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"imageLoader.h"
+	"Mesh.h"
+
+1376686547 /home/afreak/cpp/openGeeKb4ASSIMPdone/Mesh.h
+	<vector>
+	<GL/glew.h>
+	<string>
+	<iostream>
+
+1376700876 source:/home/afreak/cpp/openGeeKb4ASSIMPdone/Mesh.cpp
+	"Mesh.h"
+
+1376617008 source:/home/afreak/cpp/openGeek/Geometry.cpp
+	"Geometry.h"
+
+1376608830 /home/afreak/cpp/openGeek/Geometry.h
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1376691841 source:/home/afreak/cpp/openGeek/imageLoader.cpp
+	"imageLoader.h"
+
+1376690515 /home/afreak/cpp/openGeek/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<iostream>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1376756687 source:/home/afreak/cpp/openGeek/ImportModel.cpp
+	"ImportModel.h"
+
+1376756373 /home/afreak/cpp/openGeek/ImportModel.h
+	<iostream>
+	<vector>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"imageLoader.h"
+	"Mesh.h"
+
+1376713501 /home/afreak/cpp/openGeek/Mesh.h
+	<vector>
+	<GL/glew.h>
+	<string>
+	<iostream>
+
+1376723640 source:/home/afreak/cpp/openGeek/main.cpp
+	<iostream>
+	"ImportModel.h"
+	"Window.h"
+	"shaderCompile.h"
+	"imageLoader.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1375878202 /home/afreak/cpp/openGeek/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+
+1375652148 /home/afreak/cpp/openGeek/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1369705960 /home/afreak/cpp/openGeek/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/openGeek/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/openGeek/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/openGeek/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/openGeek/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/openGeek/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/openGeek/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/openGeek/glm/gtc/type_ptr.inl
+
+1376713878 source:/home/afreak/cpp/openGeek/Mesh.cpp
+	"Mesh.h"
+
+1375709441 source:/home/afreak/cpp/openGeek/shaderCompile.cpp
+	"shaderCompile.h"
+
+1375878751 source:/home/afreak/cpp/openGeek/Window.cpp
+	"Window.h"
+
+1377049530 source:/home/afreak/cpp/openGeekb4Bones/Geometry.cpp
+	"Geometry.h"
+
+1377045641 /home/afreak/cpp/openGeekb4Bones/Geometry.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1376691841 source:/home/afreak/cpp/openGeekb4Bones/imageLoader.cpp
+	"imageLoader.h"
+
+1376690515 /home/afreak/cpp/openGeekb4Bones/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<iostream>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1377264905 source:/home/afreak/cpp/openGeekb4Bones/ImportModel.cpp
+	"ImportModel.h"
+
+1377264914 /home/afreak/cpp/openGeekb4Bones/ImportModel.h
+	<iostream>
+	<vector>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"imageLoader.h"
+	"Mesh.h"
+
+1377265987 /home/afreak/cpp/openGeekb4Bones/Mesh.h
+	<vector>
+	<GL/glew.h>
+	<string>
+	<iostream>
+
+1377266876 source:/home/afreak/cpp/openGeekb4Bones/main.cpp
+	<iostream>
+	"ImportModel.h"
+	"Window.h"
+	"shaderCompile.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"Cruiser.h"
+	"Water.h"
+	"Camera.h"
+	"Object3D.h"
+
+1375878202 /home/afreak/cpp/openGeekb4Bones/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+
+1375652148 /home/afreak/cpp/openGeekb4Bones/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/openGeekb4Bones/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/openGeekb4Bones/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/openGeekb4Bones/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/openGeekb4Bones/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/openGeekb4Bones/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/openGeekb4Bones/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/openGeekb4Bones/glm/gtc/type_ptr.inl
+
+1377265995 source:/home/afreak/cpp/openGeekb4Bones/Mesh.cpp
+	"Mesh.h"
+
+1375709441 source:/home/afreak/cpp/openGeekb4Bones/shaderCompile.cpp
+	"shaderCompile.h"
+
+1375878751 source:/home/afreak/cpp/openGeekb4Bones/Window.cpp
+	"Window.h"
+
+1377266093 source:/home/afreak/cpp/openGeekb4Bones/Cruiser.cpp
+	"Cruiser.h"
+
+1377266077 /home/afreak/cpp/openGeekb4Bones/Cruiser.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1377266118 /home/afreak/cpp/openGeekb4Bones/Water.h
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"imageLoader.h"
+	"Geometry.h"
+	"BaseGL.h"
+
+1377266136 source:/home/afreak/cpp/openGeekb4Bones/Water.cpp
+	"Water.h"
+
+1377105206 source:/home/afreak/cpp/openGeekb4Bones/Camera.cpp
+	"Camera.h"
+
+1377105127 /home/afreak/cpp/openGeekb4Bones/Camera.h
+	<vector>
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1377266036 source:/home/afreak/cpp/openGeekb4Bones/Object3D.cpp
+	"Object3D.h"
+
+1377266020 /home/afreak/cpp/openGeekb4Bones/Object3D.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1377265767 source:/home/afreak/cpp/openGeekb4Bones/BaseGL.cpp
+	"BaseGL.h"
+
+1377265758 /home/afreak/cpp/openGeekb4Bones/BaseGL.h
+	<vector>
+
+1377265767 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/BaseGL.cpp
+	"BaseGL.h"
+
+1377265758 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/BaseGL.h
+	<vector>
+
+1377105206 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Camera.cpp
+	"Camera.h"
+
+1377105127 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Camera.h
+	<vector>
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/glm/gtc/type_ptr.inl
+
+1377266093 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Cruiser.cpp
+	"Cruiser.h"
+
+1377266077 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Cruiser.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1377264914 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/ImportModel.h
+	<iostream>
+	<vector>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"imageLoader.h"
+	"Mesh.h"
+
+1376690515 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<iostream>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1377265987 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Mesh.h
+	<vector>
+	<GL/glew.h>
+	<string>
+	<iostream>
+
+1377049530 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Geometry.cpp
+	"Geometry.h"
+
+1377045641 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Geometry.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1376691841 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/imageLoader.cpp
+	"imageLoader.h"
+
+1377264905 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/ImportModel.cpp
+	"ImportModel.h"
+
+1377266876 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/main.cpp
+	<iostream>
+	"ImportModel.h"
+	"Window.h"
+	"shaderCompile.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"Cruiser.h"
+	"Water.h"
+	"Camera.h"
+	"Object3D.h"
+
+1375878202 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+
+1375652148 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1377266118 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Water.h
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"imageLoader.h"
+	"Geometry.h"
+	"BaseGL.h"
+
+1377266020 /home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Object3D.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1377265995 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Mesh.cpp
+	"Mesh.h"
+
+1377266036 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Object3D.cpp
+	"Object3D.h"
+
+1375709441 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/shaderCompile.cpp
+	"shaderCompile.h"
+
+1377266136 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Water.cpp
+	"Water.h"
+
+1375878751 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4Bones/Window.cpp
+	"Window.h"
+
+1377265767 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/BaseGL.cpp
+	"BaseGL.h"
+
+1377265758 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/BaseGL.h
+	<vector>
+
+1377105206 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Camera.cpp
+	"Camera.h"
+
+1377105127 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Camera.h
+	<vector>
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/glm/gtc/type_ptr.inl
+
+1377453072 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Cruiser.cpp
+	"Cruiser.h"
+
+1377452617 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Cruiser.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1377264914 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/ImportModel.h
+	<iostream>
+	<vector>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"imageLoader.h"
+	"Mesh.h"
+
+1376690515 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<iostream>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1377265987 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Mesh.h
+	<vector>
+	<GL/glew.h>
+	<string>
+	<iostream>
+
+1377049530 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Geometry.cpp
+	"Geometry.h"
+
+1377045641 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Geometry.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1376691841 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/imageLoader.cpp
+	"imageLoader.h"
+
+1377264905 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/ImportModel.cpp
+	"ImportModel.h"
+
+1377686534 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/main.cpp
+	<iostream>
+	"ImportModel.h"
+	"Window.h"
+	"shaderCompile.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"Cruiser.h"
+	"Water.h"
+	"Camera.h"
+	"Object3D.h"
+
+1375878202 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+
+1375652148 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1377266118 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Water.h
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"imageLoader.h"
+	"Geometry.h"
+	"BaseGL.h"
+
+1377484799 /home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Object3D.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1377607832 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Mesh.cpp
+	"Mesh.h"
+
+1377484843 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Object3D.cpp
+	"Object3D.h"
+
+1375709441 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/shaderCompile.cpp
+	"shaderCompile.h"
+
+1377452000 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Water.cpp
+	"Water.h"
+
+1375878751 source:/home/afreak/cpp/theOpenGeekProject/openGeekb4BonesHIIIIIIIIIIGH/Window.cpp
+	"Window.h"
+
+1377265767 source:/home/afreak/cpp/theOpenGeekProject/properGeek/BaseGL.cpp
+	"BaseGL.h"
+
+1377265758 /home/afreak/cpp/theOpenGeekProject/properGeek/BaseGL.h
+	<vector>
+
+1377105206 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Camera.cpp
+	"Camera.h"
+
+1377105127 /home/afreak/cpp/theOpenGeekProject/properGeek/Camera.h
+	<vector>
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/glm/gtc/type_ptr.inl
+
+1377453072 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Cruiser.cpp
+	"Cruiser.h"
+
+1377452617 /home/afreak/cpp/theOpenGeekProject/properGeek/Cruiser.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1377264914 /home/afreak/cpp/theOpenGeekProject/properGeek/ImportModel.h
+	<iostream>
+	<vector>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"imageLoader.h"
+	"Mesh.h"
+
+1376690515 /home/afreak/cpp/theOpenGeekProject/properGeek/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<iostream>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1377265987 /home/afreak/cpp/theOpenGeekProject/properGeek/Mesh.h
+	<vector>
+	<GL/glew.h>
+	<string>
+	<iostream>
+
+1377049530 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Geometry.cpp
+	"Geometry.h"
+
+1377045641 /home/afreak/cpp/theOpenGeekProject/properGeek/Geometry.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1376691841 source:/home/afreak/cpp/theOpenGeekProject/properGeek/imageLoader.cpp
+	"imageLoader.h"
+
+1377264905 source:/home/afreak/cpp/theOpenGeekProject/properGeek/ImportModel.cpp
+	"ImportModel.h"
+
+1377607832 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Mesh.cpp
+	"Mesh.h"
+
+1377776766 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Object3D.cpp
+	"Object3D.h"
+
+1377776960 /home/afreak/cpp/theOpenGeekProject/properGeek/Object3D.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"glm/gtc/quaternion.hpp"
+	"BaseGL.h"
+
+1375709441 source:/home/afreak/cpp/theOpenGeekProject/properGeek/shaderCompile.cpp
+	"shaderCompile.h"
+
+1375652148 /home/afreak/cpp/theOpenGeekProject/properGeek/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1377452000 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Water.cpp
+	"Water.h"
+
+1377266118 /home/afreak/cpp/theOpenGeekProject/properGeek/Water.h
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"imageLoader.h"
+	"Geometry.h"
+	"BaseGL.h"
+
+1377785838 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Window.cpp
+	"Window.h"
+
+1377785817 /home/afreak/cpp/theOpenGeekProject/properGeek/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+	<iostream>
+
+1377805868 source:/home/afreak/cpp/theOpenGeekProject/properGeek/main.cpp
+	<iostream>
+	"ImportModel.h"
+	"Window.h"
+	"shaderCompile.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"Cruiser.h"
+	"Water.h"
+	"Camera.h"
+	"Object3D.h"
+	"Car.h"
+	"Phys.h"
+	"PhysObject.h"
+	"Player.h"
+
+1377782915 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Car.cpp
+	"Car.h"
+
+1377706489 /home/afreak/cpp/theOpenGeekProject/properGeek/Car.h
+	"Object3D.h"
+	<GL/glfw.h>
+	"Phys.h"
+
+1377804932 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Phys.cpp
+	"Phys.h"
+
+1377804862 /home/afreak/cpp/theOpenGeekProject/properGeek/Phys.h
+	<btBulletDynamicsCommon.h>
+	<BulletDynamics/Character/btKinematicCharacterController.h>
+	<vector>
+	"glm/gtc/quaternion.hpp"
+	<iostream>
+
+1347576039 /home/afreak/Downloads/bullet-2.81-rev2613/src/btBulletDynamicsCommon.h
+	"btBulletCollisionCommon.h"
+	"BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
+	"BulletDynamics/Dynamics/btSimpleDynamicsWorld.h"
+	"BulletDynamics/Dynamics/btRigidBody.h"
+	"BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h"
+	"BulletDynamics/ConstraintSolver/btHingeConstraint.h"
+	"BulletDynamics/ConstraintSolver/btConeTwistConstraint.h"
+	"BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h"
+	"BulletDynamics/ConstraintSolver/btSliderConstraint.h"
+	"BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h"
+	"BulletDynamics/ConstraintSolver/btUniversalConstraint.h"
+	"BulletDynamics/ConstraintSolver/btHinge2Constraint.h"
+	"BulletDynamics/ConstraintSolver/btGearConstraint.h"
+	"BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h"
+	"BulletDynamics/Vehicle/btRaycastVehicle.h"
+
+1343755071 /home/afreak/Downloads/bullet-2.81-rev2613/src/btBulletCollisionCommon.h
+	"BulletCollision/CollisionDispatch/btCollisionWorld.h"
+	"BulletCollision/CollisionDispatch/btCollisionObject.h"
+	"BulletCollision/CollisionShapes/btBoxShape.h"
+	"BulletCollision/CollisionShapes/btSphereShape.h"
+	"BulletCollision/CollisionShapes/btCapsuleShape.h"
+	"BulletCollision/CollisionShapes/btCylinderShape.h"
+	"BulletCollision/CollisionShapes/btConeShape.h"
+	"BulletCollision/CollisionShapes/btStaticPlaneShape.h"
+	"BulletCollision/CollisionShapes/btConvexHullShape.h"
+	"BulletCollision/CollisionShapes/btTriangleMesh.h"
+	"BulletCollision/CollisionShapes/btConvexTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btTriangleMeshShape.h"
+	"BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h"
+	"BulletCollision/CollisionShapes/btCompoundShape.h"
+	"BulletCollision/CollisionShapes/btTetrahedronShape.h"
+	"BulletCollision/CollisionShapes/btEmptyShape.h"
+	"BulletCollision/CollisionShapes/btMultiSphereShape.h"
+	"BulletCollision/CollisionShapes/btUniformScalingShape.h"
+	"BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h"
+	"BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.h"
+	"BulletCollision/CollisionDispatch/btCollisionDispatcher.h"
+	"BulletCollision/BroadphaseCollision/btSimpleBroadphase.h"
+	"BulletCollision/BroadphaseCollision/btAxisSweep3.h"
+	"BulletCollision/BroadphaseCollision/btMultiSapBroadphase.h"
+	"BulletCollision/BroadphaseCollision/btDbvtBroadphase.h"
+	"LinearMath/btQuaternion.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btDefaultMotionState.h"
+	"LinearMath/btQuickprof.h"
+	"LinearMath/btIDebugDraw.h"
+	"LinearMath/btSerializer.h"
+
+1347491945 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btCollisionWorld.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"btCollisionObject.h"
+	"btCollisionDispatcher.h"
+	"BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1347897827 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btVector3.h
+	"btScalar.h"
+	"btMinMax.h"
+	"btAlignedAllocator.h"
+
+1347335390 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btScalar.h
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<ppcintrinsics.h>
+	<emmintrin.h>
+	<stdio.h>
+	<assert.h>
+	<assert.h>
+	<spu_printf.h>
+	<assert.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<assert.h>
+	<stdio.h>
+	<assert.h>
+	<arm_neon.h>
+
+1323708999 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btMinMax.h
+	"btScalar.h"
+
+1234997523 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btAlignedAllocator.h
+	"btScalar.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btTransform.h
+	"btMatrix3x3.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btMatrix3x3.h
+	"btVector3.h"
+	"btQuaternion.h"
+	<stdio.h>
+
+1346608470 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btQuaternion.h
+	"btVector3.h"
+	"btQuadWord.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btQuadWord.h
+	"btScalar.h"
+	"btMinMax.h"
+	<altivec.h>
+
+1348270644 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btCollisionObject.h
+	"LinearMath/btTransform.h"
+	"LinearMath/btMotionState.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1234997523 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btMotionState.h
+	"btTransform.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btAlignedObjectArray.h
+	"btScalar.h"
+	"btAlignedAllocator.h"
+	<memory.h>
+	<string.h>
+	<new>
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btCollisionDispatcher.h
+	"BulletCollision/BroadphaseCollision/btDispatcher.h"
+	"BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+	"BulletCollision/CollisionDispatch/btManifoldResult.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btCollisionCreateFunc.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btDispatcher.h
+	"LinearMath/btScalar.h"
+
+1347324971 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/NarrowPhaseCollision/btPersistentManifold.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"btManifoldPoint.h"
+	"LinearMath/btAlignedAllocator.h"
+
+1347691937 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/NarrowPhaseCollision/btManifoldPoint.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransformUtil.h"
+	"physics_effects/base_level/solver/pfx_constraint_row.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btTransformUtil.h
+	"btTransform.h"
+
+1349471711 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btManifoldResult.h
+	"BulletCollision/NarrowPhaseCollision/btPersistentManifold.h"
+	"BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h"
+	"LinearMath/btTransform.h"
+	"BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h"
+	"BulletCollision/CollisionDispatch/btCollisionObject.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h
+	"LinearMath/btTransform.h"
+	"LinearMath/btVector3.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btCollisionObjectWrapper.h
+	"LinearMath/btScalar.h"
+
+1327354784 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+	"LinearMath/btScalar.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btAlignedAllocator.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h
+	"LinearMath/btAlignedObjectArray.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btOverlappingPairCache.h
+	"btBroadphaseInterface.h"
+	"btBroadphaseProxy.h"
+	"btOverlappingPairCallback.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h
+	"btBroadphaseProxy.h"
+	"LinearMath/btVector3.h"
+
+1219803851 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btBoxShape.h
+	"btPolyhedralConvexShape.h"
+	"btCollisionMargin.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btMinMax.h"
+
+1348816488 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h
+	"LinearMath/btMatrix3x3.h"
+	"btConvexInternalShape.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btConvexInternalShape.h
+	"btConvexShape.h"
+	"LinearMath/btAabbUtil2.h"
+
+1330487453 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btConvexShape.h
+	"btCollisionShape.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btMatrix3x3.h"
+	"btCollisionMargin.h"
+	"LinearMath/btAlignedAllocator.h"
+
+1347814885 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btCollisionShape.h
+	"LinearMath/btTransform.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btMatrix3x3.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1316110640 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btCollisionMargin.h
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btAabbUtil2.h
+	"btTransform.h"
+	"btVector3.h"
+	"btMinMax.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btSphereShape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1347814885 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btCapsuleShape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1347814885 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btCylinderShape.h
+	"btBoxShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btVector3.h"
+
+1347814885 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btConeShape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btStaticPlaneShape.h
+	"btConcaveShape.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btConcaveShape.h
+	"btCollisionShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"btTriangleCallback.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btTriangleCallback.h
+	"LinearMath/btVector3.h"
+
+1348816488 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btConvexHullShape.h
+	"btPolyhedralConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1347213542 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btTriangleMesh.h
+	"btTriangleIndexVertexArray.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1330494055 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+	"btStridingMeshInterface.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btScalar.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btStridingMeshInterface.h
+	"LinearMath/btVector3.h"
+	"btTriangleCallback.h"
+	"btConcaveShape.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btConvexTriangleMeshShape.h
+	"btPolyhedralConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h
+	"btTriangleMeshShape.h"
+	"btOptimizedBvh.h"
+	"LinearMath/btAlignedAllocator.h"
+	"btTriangleInfoMap.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btTriangleMeshShape.h
+	"btConcaveShape.h"
+	"btStridingMeshInterface.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btOptimizedBvh.h
+	"BulletCollision/BroadphaseCollision/btQuantizedBvh.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btQuantizedBvh.h
+	<stdio.h>
+	<stdlib.h>
+	"LinearMath/btVector3.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1347338217 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btTriangleInfoMap.h
+	"LinearMath/btHashMap.h"
+	"LinearMath/btSerializer.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btHashMap.h
+	"btAlignedObjectArray.h"
+
+1348279569 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btSerializer.h
+	"btScalar.h"
+	"btStackAlloc.h"
+	"btHashMap.h"
+	<memory.h>
+	<string.h>
+
+1234997523 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btStackAlloc.h
+	"btScalar.h"
+	"btAlignedAllocator.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h
+	"BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btCompoundShape.h
+	"btCollisionShape.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btMatrix3x3.h"
+	"btCollisionMargin.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btTetrahedronShape.h
+	"btPolyhedralConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btEmptyShape.h
+	"btConcaveShape.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btMatrix3x3.h"
+	"btCollisionMargin.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btMultiSphereShape.h
+	"btConvexInternalShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btAabbUtil2.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionShapes/btUniformScalingShape.h
+	"btConvexShape.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h
+	"btActivatingCollisionAlgorithm.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"BulletCollision/CollisionDispatch/btCollisionCreateFunc.h"
+	"btCollisionDispatcher.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.h
+	"BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h
+	"LinearMath/btScalar.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1343755071 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btDefaultCollisionConfiguration.h
+	"btCollisionConfiguration.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/CollisionDispatch/btCollisionConfiguration.h
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btSimpleBroadphase.h
+	"btOverlappingPairCache.h"
+
+1349382724 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btAxisSweep3.h
+	"LinearMath/btVector3.h"
+	"btOverlappingPairCache.h"
+	"btBroadphaseInterface.h"
+	"btBroadphaseProxy.h"
+	"btOverlappingPairCallback.h"
+	"btDbvtBroadphase.h"
+	<stdio.h>
+
+1265912750 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.h
+	"BulletCollision/BroadphaseCollision/btDbvt.h"
+	"BulletCollision/BroadphaseCollision/btOverlappingPairCache.h"
+	"LinearMath/btQuickprof.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btDbvt.h
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+	"LinearMath/btAabbUtil2.h"
+	<emmintrin.h>
+	<memory.h>
+	<string.h>
+
+1314674912 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btQuickprof.h
+	<stdio.h>
+	"btScalar.h"
+	"btAlignedAllocator.h"
+	<new>
+
+1243044954 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletCollision/BroadphaseCollision/btMultiSapBroadphase.h
+	"btBroadphaseInterface.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btOverlappingPairCache.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btDefaultMotionState.h
+	"btMotionState.h"
+
+1347211350 /home/afreak/Downloads/bullet-2.81-rev2613/src/LinearMath/btIDebugDraw.h
+	"btVector3.h"
+	"btTransform.h"
+
+1349471711 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h
+	"btDynamicsWorld.h"
+	"LinearMath/btAlignedObjectArray.h"
+
+1348270644 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Dynamics/btDynamicsWorld.h
+	"BulletCollision/CollisionDispatch/btCollisionWorld.h"
+	"BulletDynamics/ConstraintSolver/btContactSolverInfo.h"
+
+1348279569 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btContactSolverInfo.h
+	"LinearMath/btScalar.h"
+
+1316112433 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h
+	"btDynamicsWorld.h"
+
+1377910393 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Dynamics/btRigidBody.h
+	"LinearMath/btAlignedObjectArray.h"
+	"LinearMath/btTransform.h"
+	"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+	"BulletCollision/CollisionDispatch/btCollisionObject.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1346442384 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btJacobianEntry.h
+	"LinearMath/btMatrix3x3.h"
+
+1349415432 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btTypedConstraint.h
+	"LinearMath/btScalar.h"
+	"btSolverConstraint.h"
+	"BulletDynamics/Dynamics/btRigidBody.h"
+
+1347132074 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSolverConstraint.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btMatrix3x3.h"
+	"btJacobianEntry.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btSolverBody.h"
+
+1347132074 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSolverBody.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btMatrix3x3.h"
+	"LinearMath/btAlignedAllocator.h"
+	"LinearMath/btTransformUtil.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btHingeConstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1347132074 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btConeTwistConstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSliderConstraint.h
+	"LinearMath/btVector3.h"
+	"btJacobianEntry.h"
+	"btTypedConstraint.h"
+
+1347338217 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h
+	"LinearMath/btVector3.h"
+	"btTypedConstraint.h"
+	"btGeneric6DofConstraint.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btUniversalConstraint.h
+	"LinearMath/btVector3.h"
+	"btTypedConstraint.h"
+	"btGeneric6DofConstraint.h"
+
+1339030590 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btHinge2Constraint.h
+	"LinearMath/btVector3.h"
+	"btTypedConstraint.h"
+	"btGeneric6DofSpringConstraint.h"
+
+1347576039 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btGearConstraint.h
+	"BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+
+1347691937 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h
+	"BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+	"BulletDynamics/ConstraintSolver/btContactSolverInfo.h"
+	"BulletDynamics/ConstraintSolver/btSolverBody.h"
+	"BulletDynamics/ConstraintSolver/btSolverConstraint.h"
+	"BulletCollision/NarrowPhaseCollision/btManifoldPoint.h"
+	"BulletDynamics/ConstraintSolver/btConstraintSolver.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/ConstraintSolver/btConstraintSolver.h
+	"LinearMath/btScalar.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Vehicle/btRaycastVehicle.h
+	"BulletDynamics/Dynamics/btRigidBody.h"
+	"BulletDynamics/ConstraintSolver/btTypedConstraint.h"
+	"btVehicleRaycaster.h"
+	"LinearMath/btAlignedObjectArray.h"
+	"btWheelInfo.h"
+	"BulletDynamics/Dynamics/btActionInterface.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Vehicle/btVehicleRaycaster.h
+	"LinearMath/btVector3.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Vehicle/btWheelInfo.h
+	"LinearMath/btVector3.h"
+	"LinearMath/btTransform.h"
+
+1283906295 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Dynamics/btActionInterface.h
+	"LinearMath/btScalar.h"
+	"btRigidBody.h"
+
+1377878546 source:/home/afreak/cpp/theOpenGeekProject/properGeek/PhysObject.cpp
+	"PhysObject.h"
+
+1377802601 /home/afreak/cpp/theOpenGeekProject/properGeek/PhysObject.h
+	"Object3D.h"
+	"Phys.h"
+	<btBulletDynamicsCommon.h>
+	"hMotionState.h"
+
+1347897827 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Character/btKinematicCharacterController.h
+	"LinearMath/btVector3.h"
+	"btCharacterControllerInterface.h"
+	"BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h"
+
+1301678092 /home/afreak/Downloads/bullet-2.81-rev2613/src/BulletDynamics/Character/btCharacterControllerInterface.h
+	"LinearMath/btVector3.h"
+	"BulletDynamics/Dynamics/btActionInterface.h"
+
+1377805736 source:/home/afreak/cpp/theOpenGeekProject/properGeek/Player.cpp
+	"Player.h"
+
+1377805746 /home/afreak/cpp/theOpenGeekProject/properGeek/Player.h
+	"Object3D.h"
+	<GL/glfw.h>
+	"Phys.h"
+	<btBulletDynamicsCommon.h>
+	"hMotionState.h"
+	"DistanceConstraint.h"
+
+1377803225 source:/home/afreak/cpp/theOpenGeekProject/properGeek/hMotionState.cpp
+	"hMotionState.h"
+
+1377803241 /home/afreak/cpp/theOpenGeekProject/properGeek/hMotionState.h
+	"Object3D.h"
+	<LinearMath/btMotionState.h>
+
+1377805672 /home/afreak/cpp/theOpenGeekProject/properGeek/DistanceConstraint.h
+	<BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h>
+
+1379603233 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/BaseGL.cpp
+	"BaseGL.h"
+
+1379603233 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/BaseGL.h
+	<vector>
+
+1379603234 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Camera.cpp
+	"Camera.h"
+
+1379603234 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Camera.h
+	<vector>
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/_fixes.hpp
+	<cmath>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/_vectorize.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/_swizzle_func.hpp
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec1.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_vec4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat2x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat2x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat2x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat3x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat3x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat3x4.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat4x2.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat4x3.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/type_mat4x4.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_trigonometric.inl
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_exponential.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_common.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_packing.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_geometric.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_matrix.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_vector_relational.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/core/func_noise.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/matrix_transform.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/half_float.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1369700636 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1364052218 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/constants.inl
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/quaternion.inl
+	<limits>
+
+1369705960 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/glm/gtc/type_ptr.inl
+
+1379603234 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Car.cpp
+	"Car.h"
+
+1379603234 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Car.h
+	"Object3D.h"
+	<GL/glfw.h>
+	"Phys.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Object3D.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"glm/gtc/quaternion.hpp"
+	"BaseGL.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/ImportModel.h
+	<iostream>
+	<vector>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"imageLoader.h"
+	"Mesh.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/imageLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/glew.h>
+	<iostream>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<vector>
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Mesh.h
+	<vector>
+	<GL/glew.h>
+	<string>
+	<iostream>
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Phys.h
+	<btBulletDynamicsCommon.h>
+	<BulletDynamics/Character/btKinematicCharacterController.h>
+	<vector>
+	"glm/gtc/quaternion.hpp"
+	<iostream>
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Cruiser.cpp
+	"Cruiser.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Cruiser.h
+	"ImportModel.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"BaseGL.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Geometry.cpp
+	"Geometry.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Geometry.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<GL/glew.h>
+	<iostream>
+	"math.h"
+	<vector>
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/hMotionState.cpp
+	"hMotionState.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/hMotionState.h
+	"Object3D.h"
+	<LinearMath/btMotionState.h>
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/imageLoader.cpp
+	"imageLoader.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/ImportModel.cpp
+	"ImportModel.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/main.cpp
+	<iostream>
+	"ImportModel.h"
+	"Window.h"
+	"shaderCompile.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"Cruiser.h"
+	"Water.h"
+	"Camera.h"
+	"Object3D.h"
+	"Car.h"
+	"Phys.h"
+	"PhysObject.h"
+	"Player.h"
+
+1379603236 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Window.h
+	<GL/glew.h>
+	<GL/glfw.h>
+	<iostream>
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/shaderCompile.h
+	<GL/glew.h>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1379603236 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Water.h
+	<GL/glew.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	"imageLoader.h"
+	"Geometry.h"
+	"BaseGL.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/PhysObject.h
+	"Object3D.h"
+	"Phys.h"
+	<btBulletDynamicsCommon.h>
+	"hMotionState.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Player.h
+	"Object3D.h"
+	<GL/glfw.h>
+	"Phys.h"
+	<btBulletDynamicsCommon.h>
+	"hMotionState.h"
+	"DistanceConstraint.h"
+
+1379603235 /home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/DistanceConstraint.h
+	<BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h>
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Mesh.cpp
+	"Mesh.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Object3D.cpp
+	"Object3D.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Phys.cpp
+	"Phys.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/PhysObject.cpp
+	"PhysObject.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Player.cpp
+	"Player.h"
+
+1379603235 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/shaderCompile.cpp
+	"shaderCompile.h"
+
+1379603236 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Water.cpp
+	"Water.h"
+
+1379603236 source:/home/afreak/cpp/theOpenGeekProject/properGeek/openGLgeek/Window.cpp
+	"Window.h"
+

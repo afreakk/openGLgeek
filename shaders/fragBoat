@@ -1,0 +1,40 @@
+#version 150
+in vec2 Texcoord;
+out vec4 outColor;
+uniform sampler2D image;
+in vec3 hlp;
+uniform float speed;
+const float lowerer = 0.00001;
+in vec3 Position_worldspace;
+in vec3 EyeDirection_cameraspace;
+in vec3 LightDirection_cameraspace;
+in vec3 Normal_cameraspace;
+void main()
+{
+	vec2 uv = Texcoord;
+	float iGlobalTime = speed*10.0;
+	float pwr = iGlobalTime/200.0;
+
+	float ww = 0.01;
+
+	uv.y += 0.1;
+	vec3 str;
+	pwr /=4.0;
+	uv.y += ((pwr) *(2.0* sin(uv.x*3.14*4.0  +iGlobalTime*1.0) ));
+	ww = sin(uv.y*3.14*1.0+iGlobalTime);
+	ww *= cos(uv.x*3.14*1.0+iGlobalTime);
+	str = vec3(sin(ww*3.14*2.0) , cos(ww*3.14*2.5), tan(ww*3.14*4.0) );
+
+	str = sin(str*3.14+iGlobalTime/2.0);
+	str = str/2.0;
+	vec4 texture = texture(image,vec2(uv.x*str.x,uv.y*str.y));
+
+
+	vec3 n = normalize( Normal_cameraspace );
+
+	vec3 l = normalize( LightDirection_cameraspace );
+
+	float cosTheta = clamp( dot( n,l ), 0.1,1.0 );
+
+  outColor = texture*cosTheta;
+}
